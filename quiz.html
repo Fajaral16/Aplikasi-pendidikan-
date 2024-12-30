@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz</h1>
+    <form id="quizForm">
+      <!-- Soal 1 -->
+      <div class="question">
+        <p>1. Apa nama organ yang berfungsi sebagai pusat pengatur tubuh?</p>
+        <label><input type="radio" name="q1" value="a"> Jantung</label><br>
+        <label><input type="radio" name="q1" value="b"> otak</label><br>
+        <label><input type="radio" name="q1" value="c"> hati</label>
+      </div>
+      
+      <!-- Soal 2 -->
+      <div class="question">
+        <p>2. Organ mana yang berfungsi mengedarkan darah ke seluruh tubuh?</p>
+        <label><input type="radio" name="q2" value="a"> paru-paru</label><br>
+        <label><input type="radio" name="q2" value="b"> jantung</label><br>
+        <label><input type="radio" name="q2" value="c"> hati</label>
+      </div>
+      
+      <!-- Soal 3 -->
+      <div class="question">
+        <p>3. Apa nama organ yang membantu kita bernapas?</p>
+        <label><input type="radio" name="q3" value="a"> paru-paru</label><br>
+        <label><input type="radio" name="q3" value="b"> otak</label><br>
+        <label><input type="radio" name="q3" value="c"> jantung</label>
+      </div>
+ <div class="question">
+        <p>4. Organ mana yang membantu mencerna makanan?</p>
+        <label><input type="radio" name="q4" value="a"> hati</label><br>
+        <label><input type="radio" name="q4" value="b"> ginjal</label><br>
+        <label><input type="radio" name="q4" value="c"> lambung</label>
+      </div>
+      <div class="question">
+        <p>5. Apa nama organ yang berfungsi sebagai penyaring darah?</p>
+        <label><input type="radio" name="q5" value="a"> hati</label><br>
+        <label><input type="radio" name="q5" value="b"> ginjal</label><br>
+        <label><input type="radio" name="q5" value="c"> jantung</label>
+      </div>
+      <button type="button" onclick="checkAnswers()">Submit</button>
+      <a href="index.html" class="back-button">Kembali</a>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

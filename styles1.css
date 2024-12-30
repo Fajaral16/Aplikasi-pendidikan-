@@ -1,0 +1,94 @@
+/* Reset gaya dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(135deg, #1e90ff, #00bfff);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #1e90ff;
+  text-align: center;
+}
+
+.media-container {
+  margin-bottom: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+video, audio {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #1e90ff;
+  color: white;
+  border-radius: 10px;
+}
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  background-color: #1e90ff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  align-items: center; /* Posisi konten di tengah */
+  justify-content: center; /* Tengah vertikal */
+}
+
+.back-button:hover {
+  background-color: #00bfff;
+}

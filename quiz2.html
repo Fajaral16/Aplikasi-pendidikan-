@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz</h1>
+    <form id="quizForm">
+      <!-- Soal 1 -->
+      <div class="question">
+        <p>1. Apa nama bagian tumbuhan yang berfungsi sebagai tempat fotosintesis?</p>
+        <label><input type="radio" name="q1" value="a"> batang</label><br>
+        <label><input type="radio" name="q1" value="b"> daun</label><br>
+        <label><input type="radio" name="q1" value="c"> akar</label>
+      </div>
+      
+      <!-- Soal 2 -->
+      <div class="question">
+        <p>2. Apa nama bagian tumbuhan yang menghubungkan akar dan daun?</p>
+        <label><input type="radio" name="q2" value="a"> batang</label><br>
+        <label><input type="radio" name="q2" value="b"> daun</label><br>
+        <label><input type="radio" name="q2" value="c"> akar</label>
+      </div>
+      
+      <!-- Soal 3 -->
+      <div class="question">
+        <p>3. Bagian mana yang berfungsi sebagai tempat reproduksi tumbuhan?</p>
+        <label><input type="radio" name="q3" value="a"> akar</label><br>
+        <label><input type="radio" name="q3" value="b"> daun</label><br>
+        <label><input type="radio" name="q3" value="c"> bunga</label>
+      </div>
+ <div class="question">
+        <p>4. Bagian mana yang berfungsi menyerap air dan nutrisi dari tanah?</p>
+        <label><input type="radio" name="q4" value="a"> daun</label><br>
+        <label><input type="radio" name="q4" value="b"> akar</label><br>
+        <label><input type="radio" name="q4" value="c"> bunga</label>
+      </div>
+      <div class="question">
+        <p>5. Apa nama bagian tumbuhan yang melindungi batang dan akar?</p>
+        <label><input type="radio" name="q5" value="a"> kulit</label><br>
+        <label><input type="radio" name="q5" value="b"> daun</label><br>
+        <label><input type="radio" name="q5" value="c"> bunga</label>
+      </div>
+      <button type="button" onclick="checkAnswers()">Submit</button>
+      <a href="index.html" class="back-button">Kembali</a>
+    </form>
+    <div id="result"></div>
+  </div>
+  
+  <script src="script2.js"></script>
+</body>
+</html>

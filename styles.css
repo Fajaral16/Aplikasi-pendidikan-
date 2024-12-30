@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+header {
+  display: flex; /* Mengatur konten dalam satu baris */
+  flex-direction: column; /* Kolom vertikal */
+  align-items: center; /* Posisi konten di tengah */
+  justify-content: center; /* Tengah vertikal */
+  background: linear-gradient(135deg, #1e90ff, #00bfff); /* Gradien warna */
+  color: white; /* Warna teks */
+  padding: 40px 20px; /* Jarak dalam header */
+  border-radius: 15px; /* Sudut melengkung */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+header img {
+  width: 120px; /* Ukuran logo */
+  height: auto;
+  margin-bottom: 20px; /* Jarak bawah logo */
+  border-radius: 50%; /* Membuat logo berbentuk lingkaran */
+  border: 4px solid white; /* Garis tepi putih di logo */
+}
+
+header h1 {
+  font-size: 28px; /* Ukuran teks judul */
+  font-family: 'Poppins', sans-serif; /* Font modern */
+  margin: 10px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Efek bayangan teks */
+}
+
+header p {
+  font-size: 18px; /* Ukuran teks deskripsi */
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none; /* Hilangkan garis bawah */
+  color: white; /* Warna teks */
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px; /* Jarak dalam tombol */
+  background: linear-gradient(135deg, #1e90ff, #00bfff); /* Gradien warna */
+  border-radius: 25px; /* Sudut melengkung penuh */
+  display: inline-block; /* Agar tombol menyesuaikan ukuran teks */
+  transition: all 0.3s ease-in-out; /* Animasi halus */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan tombol */
+}
+
+a:hover {
+  background: linear-gradient(135deg, #00bfff, #1e90ff); /* Gradien terbalik saat hover */
+  color: #fff; /* Warna teks tetap putih */
+  transform: scale(1.05); /* Sedikit memperbesar tombol saat hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Menambah bayangan */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #0056a3;
+  padding: 10px;
+  margin: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #0078d4;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+table th {
+  background-color: #0078d4;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #0056a3;
+  color: white;
+  margin-top: 20px;
+}
+/* Styling untuk teks box */
+.text-box {
+    margin: 10px; /* Memberi jarak antar elemen */
+    padding: 15px; /* Memberi ruang di dalam box */
+    border-radius: 15px; /* Membuat sudut border melengkung */
+}
+.quiz-container {
+  display: flex;
+  flex-direction: column; /* Susun tombol secara vertikal */
+  gap: 15px; /* Tambahkan jarak antar tombol */
+  align-items: center; /* Rata tengah secara horizontal */
+  margin-top: 50px; /* Jarak dari atas */
+}
+
+/* Atur gaya untuk tombol */
+.quiz-button {
+  padding: 10px 20px; /* Ruang dalam tombol */
+  background-color: #007bff; /* Warna tombol */
+  color: white; /* Warna teks */
+  border: none; /* Hilangkan garis tombol */
+  border-radius: 5px; /* Ujung tombol melengkung */
+  cursor: pointer; /* Ganti kursor saat hover */
+  font-size: 16px; /* Ukuran font tombol */
+  width: 200px; /* Lebar tombol seragam */
+  text-align: center; /* Rata tengah teks */
+}
+
+/* Gaya hover */
+.quiz-button:hover {
+  background-color: white; /* Warna tombol saat di-hover */
+}
+
